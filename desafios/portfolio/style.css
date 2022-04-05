@@ -81,3 +81,38 @@ h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
+
+.grid-tecnologias {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 19.7rem;
+  height: 13.75rem;
+  background: var(--bg-cards);
+  border-radius: 1.25rem;
+  padding: 1rem;
+}
+
+.tecnologias {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.tecnologias a {
+  width: 5.3rem;
+  padding: 0.5rem;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7rem;
+  background: #CB92B1;
+  border-radius: 1.87rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background: var(--body-bg-color);
+}
