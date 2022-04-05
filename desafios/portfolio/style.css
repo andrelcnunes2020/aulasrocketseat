@@ -64,11 +64,11 @@ h1, h2, h3, p {
   display: grid;
   grid-template-columns: 1fr 7fr;
   align-items: center;
-  width: 18.7rem;
+  width: 17.7rem;
   height: 19.75rem;
   background: var(--bg-cards);
   border-radius: 1.25rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .grid-midia-sociais img {
