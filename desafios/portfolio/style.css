@@ -159,6 +159,25 @@ h1, h2, h3, p {
   font-weight: 600;
 }
 
+.grid-projects {
+  background: var(--bg-cards);
+  padding: 2rem;
+  border-radius: 1.25rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-projects h2 {
+  font-size: 1.25rem;
+}
+
+.grid-projects a {
+  text-decoration: none;
+  font-size: 0.87rem;
+}
+
 
 
 footer {
