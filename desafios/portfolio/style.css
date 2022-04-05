@@ -183,6 +183,7 @@ h1, h2, h3, p {
 .container-projetos {
   display: flex;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .projetos-item{
@@ -234,6 +235,17 @@ h1, h2, h3, p {
 
 .container-social p {
   font-size: 0.87;
+}
+
+.grid-recents-post {
+  background: var(--bg-cards);
+  padding: 2rem;
+  border-radius: 1.25rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+
 }
 
 
