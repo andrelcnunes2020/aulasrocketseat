@@ -112,6 +112,38 @@ h1, h2, h3, p {
   margin-bottom: 0.5rem;
 }
 
+.grid-experiencia {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 17.7rem;
+  height: 19rem;
+  background: var(--bg-cards);
+  border-radius: 1.25rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.grid-empresas {
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+}
+
+.nome-empresas {
+  font-size: 0.87rem;
+  font-weight: 700;
+}
+
+.empresas-data {
+  list-style: none;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+}
+
+
+
 footer {
   text-align: center;
   background: var(--body-bg-color);
