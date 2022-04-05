@@ -25,6 +25,11 @@ h1, h2, h3, p {
   background: var(--body-bg-color);
 }
 
+.sidbar-left {
+  display: grid;
+  gap: 1.87rem;
+}
+
 .grid-perfil {
   width: 21.75rem;
   height: 18.25rem;
@@ -32,7 +37,6 @@ h1, h2, h3, p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
   border-radius: 1.25rem;
   text-align: center;
 
@@ -41,11 +45,27 @@ h1, h2, h3, p {
 .grid-perfil img {
   width: 8rem;
   height: 8rem;
+  padding-top: 2.5rem;
   display: block;
   margin-bottom: 1.88rem;
 }
 
 .perfil-nome {
+  font-size: 1.75rem;
   text-align: center;
   margin-bottom: 0.63rem;
+}
+
+.grid-perfil p {
+  font-size: 0.82rem;
+}
+
+.grid-midia-sociais {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 21.87rem;
+  height: 21.87rem;
+  background: var(--bg-cards);
+  border-radius: 1.25rem;
+  padding: 2.5rem;
 }
