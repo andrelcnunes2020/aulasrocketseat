@@ -62,10 +62,22 @@ h1, h2, h3, p {
 
 .grid-midia-sociais {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  width: 21.87rem;
-  height: 21.87rem;
+  grid-template-columns: 1fr 7fr;
+  align-items: center;
+  width: 18.7rem;
+  height: 19.75rem;
   background: var(--bg-cards);
   border-radius: 1.25rem;
-  padding: 2.5rem;
+  padding: 1.5rem;
+}
+
+.grid-midia-sociais img {
+  color: #837E9F;
+}
+
+.grid-midia-sociais a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
