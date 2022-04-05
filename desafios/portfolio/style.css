@@ -248,6 +248,41 @@ h1, h2, h3, p {
 
 }
 
+.container-post {
+  display: flex;
+  background: var(--bg-cards);
+  border-radius: 1.25rem;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header-post h1{
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.header-post p {
+  font-size: 0.86rem;
+}
+
+.conteudo p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tags-post {
+  display: flex;
+  gap: 3rem;
+  font-size: 0.86rem;
+}
+
 
 footer {
   text-align: center;
