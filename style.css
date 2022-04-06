@@ -37,10 +37,11 @@ main h1 {
   color: #fff;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  width: 10rem;
+  width: 12rem;
 }
 
 .btn-desafios a:hover {
   background: rgb(70, 3, 97);
   font-weight: 700;
+  
 }
