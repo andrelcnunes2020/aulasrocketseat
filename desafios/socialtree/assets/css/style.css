@@ -17,6 +17,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
+  border: var(--body-bg-color) 2px solid;
 }
 
 @media only screen and (max-width: 600px) {
@@ -70,6 +71,11 @@ main {
   height: 3rem;
   justify-content: center;
   align-items: center;
+}
+
+.container-link a:hover {
+  background: var(--purple);
+  color: var(--body-bg-color);
 }
 
 @media only screen and (max-width: 600px) {
