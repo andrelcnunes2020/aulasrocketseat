@@ -13,6 +13,21 @@ main {
   max-width: 62rem;
   margin: 0 auto;
   display: flex;
+  gap: 1.5rem;
   flex-direction: column;
   align-items: center;
+  padding-top: 3rem;
+}
+
+main img {
+  border: 2px var(--purple) solid;
+  border-radius: 50%;
+  padding: 0.31rem;
+}
+
+.instagram {
+  text-decoration: none;
+  color: var(--purple);
+  font-size: 1rem;
+  font-weight: 300;
 }
