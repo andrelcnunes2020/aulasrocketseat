@@ -51,3 +51,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.container-icon-social {
+  display: flex;
+  gap: 1.5rem;
+}
