@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --body-bg-color: #121214;
   --text-color: #E1E1E6;
@@ -24,21 +29,75 @@ main {
 }
 
 .container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
   width: 50%;
   height: 100vh;
   background: black;
 }
 
+.logo {
+  margin-bottom: 5rem;
+}
+
+.logo img{
+  display: block;
+  padding-top: 3.1rem;
+  padding-left: 1.87rem;
+  max-width: 24rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 2.25rem;
+}
+
+.description h2 {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+}
+
+.description h3 {
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  font-size: 0.87rem;
+  font-weight: 700;
+}
+
+.description p {
+  color: var(--text-color);
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  font-size: 0.87rem;
+}
+
+.input-email {
+  margin: 0 2.25rem;
+}
+
+.input-email label {
+  color: var(--text-color);
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  font-size: 0.87rem;
+  margin-bottom: 1rem;
+}
+
 .container-2 {
   display: flex;
   justify-content: flex-end;
+  width: 50%;
   position: relative;
-  width: 40%;
 }
 
 .img-right {
+  display: block;
+  max-width: 100%;
   position: absolute;
-  right: 0px;
+  
   z-index: -1;
 }
 
