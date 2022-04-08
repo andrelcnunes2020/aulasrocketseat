@@ -10,3 +10,35 @@
   --form-color: #A8A8A8;
   --bg-button-color: #8257e5;
 }
+
+body {
+  background-color: black;
+
+}
+
+main {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-1 {
+  width: 50%;
+  height: 100vh;
+  background: black;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 40%;
+}
+
+.img-right {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+}
+
