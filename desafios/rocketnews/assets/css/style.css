@@ -91,10 +91,45 @@ main {
 
 .input-email input {
   width: 50rem;
-  height: 3.12rem;
+  height: 3rem;
   border-left: 5px var(--title-color) solid;
   outline: none;
   padding-left: 1rem;
   font-size: 1rem;
+  border-radius: 8px 0 0 8px;
+  border-width: 0;
 }
 
+.input-email form {
+  display: flex;
+  width: 45rem;
+}
+
+.input-email button {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  border: none;
+  padding: 0.75rem;
+  background: var(--bg-button-color);
+}
+
+.link-ler {
+  padding: 0 2.25rem;
+}
+
+.link-ler a{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.87;
+  color: var(--bg-button-color);
+  font-family: 'Spartan', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.link-ler a img {
+  display: block;
+  width: 1.5rem;
+}
