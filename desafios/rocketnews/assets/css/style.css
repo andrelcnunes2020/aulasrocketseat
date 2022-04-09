@@ -95,7 +95,7 @@ main {
 .input-email input {
   width: 50rem;
   height: 3rem;
-  
+  box-shadow: 55px 10px 5px #00000081;
   outline: none;
   padding-left: 1rem;
   font-size: 1rem;
@@ -104,7 +104,7 @@ main {
 
 .input-email form {
   display: flex;
-  width: 45rem;
+  width: 47rem;
 }
 
 .input-email button {
