@@ -88,15 +88,18 @@ main {
   margin-bottom: rem;
 }
 
+.input-email span {
+  border-left: 10px var(--title-color) solid;
+}
+
 .input-email input {
   width: 50rem;
   height: 3rem;
-  border-left: 5px var(--title-color) solid;
+  
   outline: none;
   padding-left: 1rem;
   font-size: 1rem;
-  border-radius: 8px 0 0 8px;
-  border-width: 0;
+  border-width: inherit;
 }
 
 .input-email form {
