@@ -26,12 +26,15 @@ main {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  background-image: url('/assets/img/bgnews.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .container-1 {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1rem;
   width: 50%;
   height: 100vh;
   background: black;
@@ -83,21 +86,15 @@ main {
   color: var(--text-color);
   font-family: 'Spartan', Arial, Helvetica, sans-serif;
   font-size: 0.87rem;
-  margin-bottom: 1rem;
+  margin-bottom: rem;
 }
 
-.container-2 {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  position: relative;
-}
-
-.img-right {
-  display: block;
-  max-width: 100%;
-  position: absolute;
-  
-  z-index: -1;
+.input-email input {
+  width: 50rem;
+  height: 3.12rem;
+  border-left: 5px var(--title-color) solid;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1rem;
 }
 
